@@ -1,0 +1,63 @@
+.fundo {
+	background-image: url("d.jpg");
+    background-size: 200px;
+	background-repeat: repeat;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	text-align: center;
+	color: rgb(247, 122, 76);
+	font-size: 200%;
+	font-weight: bold;
+	text-shadow:rgba(0, 0, 0, 0.4) 1px -1px, rgba(0, 0, 0, 0.4) -1px 1px, rgba(0, 0, 0, 0.4) 1px 1px, rgba(0, 0, 0, 0.4) -1px -1px;
+}
+
+p {
+	
+}
+
+h2 {
+	text-align: center;
+	color: rgb(247, 122, 76);
+	font-size: 100%;
+	font-weight: bold;
+	text-shadow:rgba(0, 0, 0, 0.4) 1px -1px, rgba(0, 0, 0, 0.4) -1px 1px, rgba(0, 0, 0, 0.4) 1px 1px, rgba(0, 0, 0, 0.4) -1px -1px;
+}
+
+.bg-orange {
+	background-color: rgb(216, 190, 181); 
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center
+}
+
+.bg-blue {
+	background-color: rgb(142, 160, 240); 
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center
+}
+
+.bg-green {
+	background-color: rgb(155, 226, 179); 
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center
+}
+
+.bg-yellow {
+	background-color: rgb(245, 224, 155); 
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center
+}
+
+.assinatura {
+
+}

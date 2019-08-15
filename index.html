@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Atividade JavaScript</title>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body class="fundo">
+	<div class="container">	
+		<div class="row"> <!-- cabeçalho e apresentação -->
+			<div class="col-0 col-md-3"></div>
+			<div class="col-9 col-md-6">
+				<div class="text-center py-3 titulo gray">	
+					<h1>Gerenciador de tarefas</h1>
+					<p>Capacitação de JavaScript - Ecomp</p>
+				</div>
+			</div>
+			<div class="col-0 col-md-3"></div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row"> <!-- entrada e manipulação das tarefas -->
+			<div class="col-0 col-md"></div>
+			<div class="col-9 com-md bg-orange pb-3">
+				<form>
+					<div class="input-group-append py-4 justify-content-center"> <!-- campo de texto e botao inserir -->
+						<input id="entrada_tarefa" type="text" name="entrada" placeholder="Digite a tarefa" class="form_control" required="">
+						<div class="input-group-append">	
+							<button class="btn btn-secondary" onclick="recebe()" type="button">
+								Inserir
+							</button>
+						</div>
+					</div>
+					<div class="input-group-append justify-content-center"> <!-- botoes mudar e apagar -->
+						<button class="btn btn-primary" onclick="verifica_mudancas()" type="button">
+							Mudar
+						</button>
+						<button class="btn btn-success" onclick="verifica_terminadas()" type="button">
+							Apagar
+						</button>
+					</div>
+				</form>
+			</div>
+			<div class="col-0 col-md"></div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row"> <!-- tabela de status das tarefas -->
+			<div class="col-0 col-md"></div>
+
+			<div class="col-3 com-md bg-blue pb-2"> <!-- a fazer -->
+				<table> <!-- #?#?#?#?#?#?#?#?#?#?#?#?# como manter esse elemento no topo da div? #?#?#?#?#?#?#?#?#?#?#?#?# -->
+					<tbody id="fazer">
+						<tr>
+							<td></td>
+							<td>
+								<h2>Para fazer</h2>
+							</td>
+						</tr>
+						<!-- função criar() insere conteúdo aqui -->
+					</tbody>
+				</table>
+			</div>
+			
+			<div class="col-3 com-md bg-yellow pb-2"> <!-- fazendo -->
+				<table>
+					<tbody id="fazendo">
+						<tr>
+							<td></td>
+							<td>
+								<h2>Fazendo</h2>
+							</td>
+						</tr>
+						<!-- função mudar() insere conteúdo aqui -->
+					</tbody>
+				</table>
+			</div>
+			
+			<div class="col-3 com-md bg-green pb-2"> <!-- feito -->
+				<table>
+					<tbody id="feito">
+						<tr>
+							<td></td>
+							<td>
+								<h2>Terminado</h2>
+							</td>
+						</tr>
+						<!-- função mudar() insere conteúdo aqui -->
+					</tbody>
+				</table>
+			</div>
+			
+			<div class="col-0 col-md"></div>
+		</div>
+	</div>
+
+	<div class="row py-2"> <!-- assinatura e data -->
+		<div class="col-0 col-md-3" col-md-3></div>
+		<div class="col-12 col-md-6 gray text-center ">
+			<p class="assinatura">Bruno Cesar<br>GitHub: @brnocesar<br>07/05/2019</p>
+		</div>
+		<div class="col-0 col-md-3"></div>
+	</div>
+
+	<script language="javascript" type="text/javascript" src="myscripts.js"></script>
+	<!--<script language="javascript" link= "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" src="myscripts.js" >
+	</script> arquivo JavaScript -->
+</body>
+</html>
