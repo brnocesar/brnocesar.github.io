@@ -1,0 +1,245 @@
+ul li {
+    display: inline;
+    text-align: center;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+
+.imagem-cliente {
+	margin-bottom: 10px;
+}
+ 
+
+.quatrob {
+	background-color: gray;	
+	opacity: 0.5;
+
+
+}
+
+.jumbotron {
+	 background-attachment: fixed;
+	 background-position: center;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 background-color: rgba(0,0,0,0.6);
+	 margin: 0px;
+}
+
+.opacidade {
+	 background-image: url(imagens/4background.png);
+
+}
+
+.sublinhado {
+
+	font-weight: bold;
+	
+}
+
+.centro{
+    text-align: center;
+}
+
+.imagens_3d {
+	max-width:100%;
+	height:auto;
+}
+
+
+#callingCard{
+	background: url('imagens/1_arvore.png') center center no-repeat fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+}
+
+#callingCard button {
+	border: 3px solid black;
+	background: transparent;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+.callingCardText{
+	text-align: right;
+}
+
+#callingCard li {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.dois-c {
+	padding: 40px;
+}
+
+
+.dois-c h3 {
+	text-align: center;
+}
+
+#FeaturedArticles {
+	text-align: center;
+}
+
+
+.featuredArticle {
+	background-color: #222222;
+	color: white;
+	text-align: justify;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 35px;
+	padding-top: 35px;
+	margin: 5px;
+}
+
+.articlePublisher {
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+
+.articlePublisherName {
+	margin: 0px;
+}
+
+@media (min-width: 0px) and (max-width: 575px) {
+	#callingCard{
+		height: 600px;
+	}
+	
+	#callingCard .callingCardText{
+		height: 600px;
+		;
+	}
+}
+@media (min-width: 576px) and (max-width: 767px) {
+	#callingCard{
+		height: 600px;
+	}
+	
+	#callingCard .callingCardText{
+		height: 600px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	#callingCard{
+		height: 650px;
+	}
+	
+	#callingCard .callingCardText{
+		height: 650px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	#callingCard{
+		height: 700px;
+	}
+	
+	#callingCard .callingCardText{
+		height: 700px;
+	}
+}
+@media (min-width: 1200px) and (max-width: 2561px) {
+	#callingCard{
+		height: 700px;
+	}
+	
+	#callingCard .callingCardText{
+		height: 700px;
+	}
+}
+
+
+
+.cinco img, .cinco .text{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.cinco {
+	text-align: center;
+}
+
+.cinco .row {
+	padding: 15px;
+}
+
+.center {
+	align-items: center;
+}
+
+.cinco h6 {
+	color: gray;
+}
+
+.seis {
+	padding: 30px;
+	background: #222222;
+	color: #999999;
+}
+
+.seis p {
+	color: #999999
+}
+
+.seis a {
+	color: #999999;
+}
+
+.seis h4 {
+	color: #DDDDDD;
+}
+
+.seis h6 {
+	color: #DDDDDD;
+	text-align: center;
+}
+
+.seis ul {
+	list-style-type: none;
+}
+
+.seis ul li {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.seis form input {
+	background-color: #222222;
+	color: #999999;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom-color: #999999;
+}
+
+form .container {
+	height: 235px;
+}
+
+#footer {
+	border-color: #999999;
+}
+
+#footer p {
+	
+}
+
+#footerList li{
+	display: inline;
+	font-size: 15px;
+	margin: 5px;
+}
+
+.withBorder {
+	border-bottom: 1px solid #999999;
+	padding-bottom: 5px;
+}
