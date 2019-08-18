@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>introducao_python-aula3</title>
+<title>Introdução a Python - Aula 3</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13116,7 +13116,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Introdu&#231;&#227;o-a-Python---Aula-3">Introdu&#231;&#227;o a Python - Aula 3<a class="anchor-link" href="#Introdu&#231;&#227;o-a-Python---Aula-3">&#182;</a></h1><p><br><br>
+<h1 id="Introdu&#231;&#227;o-a-Python---Aula-3">Introdu&#231;&#227;o a Python - Aula 3</h1><p><br><br>
 <a href="#aula_tres"><strong>Funções</strong></a><br>
 1 - <a href="#aula_tres-def">Definindo funções</a><br>
 2 - <a href="#aula_tres-escopo">Escopo de variável</a><br>
@@ -13124,14 +13124,14 @@ div#notebook {
 4 - <a href="#aula_tres-lambda">Expressões lambda</a><br>
 5 - <a href="#aula_tres-iteradores">Iteradores e geradores</a><br>
 6 - <a href="#aula_tres-gerador">Gerador de expressões</a><br></p>
-<h2 id="Fun&#231;&#245;es"><a id="aula_tres">Fun&#231;&#245;es</a><a class="anchor-link" href="#Fun&#231;&#245;es">&#182;</a></h2><ul>
+<h2 id="Fun&#231;&#245;es"><a id="aula_tres">Fun&#231;&#245;es</a></h2><ul>
 <li>Definição de funções</li>
 <li>Escopo de variável</li>
 <li>Documentação</li>
 <li>Expressões lambda</li>
 <li>Iteradores e geradores</li>
 </ul>
-<h3 id="1.-Definindo-fun&#231;&#245;es"><a id="aula_tres-def">1. Definindo fun&#231;&#245;es</a><a class="anchor-link" href="#1.-Definindo-fun&#231;&#245;es">&#182;</a></h3><h4 id="1.1.-Definindo-fun&#231;&#245;es">1.1. Definindo fun&#231;&#245;es<a class="anchor-link" href="#1.1.-Definindo-fun&#231;&#245;es">&#182;</a></h4><p>Exemplo de uma definição de função:</p>
+<h3 id="1.-Definindo-fun&#231;&#245;es"><a id="aula_tres-def">1. Definindo fun&#231;&#245;es</a></h3><h4 id="1.1.-Definindo-fun&#231;&#245;es">1.1. Definindo fun&#231;&#245;es</h4><p>Exemplo de uma definição de função:</p>
 
 </div>
 </div>
@@ -13225,7 +13225,7 @@ O nome de funções segue as mesmas convenções de nomenclatura que o das vari�
 <li><em>Você não pode usar palavras reservadas ou identificadores internos</em> que tenham finalidades importantes em Python, você vai aprender sobre elas durante todo esse curso. Você pode encontrar uma lista descrevendo as palavras reservadas do Python <a href="https://pentangle.net/python/handbook/node52.html">aqui</a>;</li>
 <li>Tente usar nomes descritivos, que podem ajudar os leitores a entender o que a função faz.</li>
 </ol>
-<h4 id="1.2.-Argumentos-padr&#227;o">1.2. Argumentos padr&#227;o<a class="anchor-link" href="#1.2.-Argumentos-padr&#227;o">&#182;</a></h4><p>Podemos adicionar argumentos padrão em uma função para ter valores padrão para os parâmetros que não são especificados na hora de recorrer à função.</p>
+<h4 id="1.2.-Argumentos-padr&#227;o">1.2. Argumentos padr&#227;o</h4><p>Podemos adicionar argumentos padrão em uma função para ter valores padrão para os parâmetros que não são especificados na hora de recorrer à função.</p>
 
 </div>
 </div>
@@ -13291,7 +13291,7 @@ O nome de funções segue as mesmas convenções de nomenclatura que o das vari�
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="2.-Escopo-de-vari&#225;vel"><a id="aula_tres-escopo">2. Escopo de vari&#225;vel</a><a class="anchor-link" href="#2.-Escopo-de-vari&#225;vel">&#182;</a></h3><p><strong>Escopo de variável</strong> se refere a quais partes de um programa uma variável pode ser referenciada ou utilizada.</p>
+<h3 id="2.-Escopo-de-vari&#225;vel"><a id="aula_tres-escopo">2. Escopo de vari&#225;vel</a></h3><p><strong>Escopo de variável</strong> se refere a quais partes de um programa uma variável pode ser referenciada ou utilizada.</p>
 <p>É importante considerar o escopo quando usamos variáveis em funções. Se uma variável é criada dentro de uma função, só pode ser usada dentro dessa função. Não é possível acessá-la fora dessa função.</p>
 
 </div>
@@ -13415,7 +13415,7 @@ O nome de funções segue as mesmas convenções de nomenclatura que o das vari�
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Observe que ainda podemos acessar o valor da variável global <code>word</code> dentro dessa função. No entanto, o valor de uma variável global não pode ser <strong>modificado</strong> dentro da função. Se você quiser modificar o valor da variável dentro dessa função, ele deve ser passado como um argumento. Você verá mais sobre isso no próximo quiz.</p>
 <p>O escopo é essencial para compreender como as informações são passadas ao longo de programas em Python e em qualquer outra linguagem de programação.</p>
-<h4 id="Mais-sobre-escopo-de-vari&#225;vel">Mais sobre escopo de vari&#225;vel<a class="anchor-link" href="#Mais-sobre-escopo-de-vari&#225;vel">&#182;</a></h4><p>Quando você programa, você frequentemente vai ver que ideias semelhantes surgem diversas vezes. Você usará variáveis para coisas como contagem, iteração e acumulação de valores para retornar. Para escrever um código legível, você vai acabar usando nomes semelhantes para ideias parecidas. Assim que você reunir múltiplos pedaços de código (por exemplo, diversas funções ou recorrer a várias funções em um único script), pode preferir utilizar o mesmo nome para dois conceitos diferentes.</p>
+<h4 id="Mais-sobre-escopo-de-vari&#225;vel">Mais sobre escopo de vari&#225;vel</h4><p>Quando você programa, você frequentemente vai ver que ideias semelhantes surgem diversas vezes. Você usará variáveis para coisas como contagem, iteração e acumulação de valores para retornar. Para escrever um código legível, você vai acabar usando nomes semelhantes para ideias parecidas. Assim que você reunir múltiplos pedaços de código (por exemplo, diversas funções ou recorrer a várias funções em um único script), pode preferir utilizar o mesmo nome para dois conceitos diferentes.</p>
 <p>Felizmente, você não precisa inventar novos nomes infinitamente. Reutilizar nomes para objetos não gera problemas, desde que você os deixe em escopos separados.</p>
 <p><strong>Recomendação:</strong> é melhor definir variáveis no menor escopo em que elas serão necessárias. Enquanto funções podem se referir a variáveis definidas em um escopo maior, isso raramente é uma boa ideia, já que você pode não saber quais são as variáveis que definiu, se seu programa tiver muitas variáveis.</p>
 
@@ -13425,7 +13425,7 @@ O nome de funções segue as mesmas convenções de nomenclatura que o das vari�
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="3.-Documenta&#231;&#227;o"><a id="aula_tres-doc">3. Documenta&#231;&#227;o</a><a class="anchor-link" href="#3.-Documenta&#231;&#227;o">&#182;</a></h3><p>A documentação é usada para tornar seu código mais fácil de entender e usar. As funções em especial são legíveis porque, muitas vezes, elas usam documentação de strings, ou docstrings. Docstrings são um tipo de comentário usado para explicar a finalidade de uma função e como ela deve ser utilizada. Aqui está uma função de densidade populacional com uma docstring.</p>
+<h3 id="3.-Documenta&#231;&#227;o"><a id="aula_tres-doc">3. Documenta&#231;&#227;o</a></h3><p>A documentação é usada para tornar seu código mais fácil de entender e usar. As funções em especial são legíveis porque, muitas vezes, elas usam documentação de strings, ou docstrings. Docstrings são um tipo de comentário usado para explicar a finalidade de uma função e como ela deve ser utilizada. Aqui está uma função de densidade populacional com uma docstring.</p>
 
 </div>
 </div>
@@ -13489,7 +13489,7 @@ O nome de funções segue as mesmas convenções de nomenclatura que o das vari�
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="4.-Express&#245;es-lambda"><a id="aula_tres-lambda">4. Express&#245;es lambda</a><a class="anchor-link" href="#4.-Express&#245;es-lambda">&#182;</a></h3><p>Você pode usar expressões lambda para criar funções anônimas. Ou seja, funções que não têm um nome. Elas são úteis para a criação de funções rápidas que não serão necessárias posteriormente em seu código. Isso pode ser especialmente útil para funções de ordem superior ou aquelas que aceitam outras funções como argumentos.</p>
+<h3 id="4.-Express&#245;es-lambda"><a id="aula_tres-lambda">4. Express&#245;es lambda</a></h3><p>Você pode usar expressões lambda para criar funções anônimas. Ou seja, funções que não têm um nome. Elas são úteis para a criação de funções rápidas que não serão necessárias posteriormente em seu código. Isso pode ser especialmente útil para funções de ordem superior ou aquelas que aceitam outras funções como argumentos.</p>
 <p>Com uma expressão lambda, esta função:</p>
 
 </div>
@@ -13574,7 +13574,7 @@ O nome de funções segue as mesmas convenções de nomenclatura que o das vari�
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Componentes-de-uma-fun&#231;&#227;o-lambda">Componentes de uma fun&#231;&#227;o lambda<a class="anchor-link" href="#Componentes-de-uma-fun&#231;&#227;o-lambda">&#182;</a></h4><ol>
+<h4 id="Componentes-de-uma-fun&#231;&#227;o-lambda">Componentes de uma fun&#231;&#227;o lambda</h4><ol>
 <li>A palavra-chave lambda é utilizada para indicar que se trata de uma expressão lambda.</li>
 <li>Depois de lambda, temos um ou mais argumentos para a função anônima, separados por vírgulas e seguidos por dois pontos :. Semelhante às funções, a maneira como os argumentos são nomeados em uma expressão lambda é arbitrária.</li>
 <li>Por último está uma expressão que é avaliada e devolvida nessa função. Isto se parece muito com uma expressão que você pode ver como declaração de retorno em uma função.</li>
@@ -13587,7 +13587,7 @@ O nome de funções segue as mesmas convenções de nomenclatura que o das vari�
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="5.-Iteradores-e-geradores"><a id="aula_tres-iteradores">5. Iteradores e geradores</a><a class="anchor-link" href="#5.-Iteradores-e-geradores">&#182;</a></h3><p><strong>Iteráveis</strong> são objetos que podem retornar um de seus elementos de cada vez, assim como uma lista. Muitas das funções internas que usamos até agora, como <code>enumerate</code>, retornam um iterador.</p>
+<h3 id="5.-Iteradores-e-geradores"><a id="aula_tres-iteradores">5. Iteradores e geradores</a></h3><p><strong>Iteráveis</strong> são objetos que podem retornar um de seus elementos de cada vez, assim como uma lista. Muitas das funções internas que usamos até agora, como <code>enumerate</code>, retornam um iterador.</p>
 <p>Um <strong>iterador</strong> é um objeto que representa uma corrente de dados. Isso é diferente de uma lista, que também é um iterável, mas não um iterador, porque não é uma corrente de dados.</p>
 <p><strong>Geradores</strong> são uma maneira simples de criar iteradores usando funções. Você também pode definir os iteradores usando <strong>classes</strong>, sobre as quais você pode ler mais <a href="https://docs.python.org/3/tutorial/classes.html#iterators">aqui</a>.</p>
 <p>Aqui está um exemplo de uma função de gerador chamado <code>my_range</code>, que produz um iterador que é uma corrente de números de 0 até (x - 1).</p>
@@ -13660,7 +13660,7 @@ O nome de funções segue as mesmas convenções de nomenclatura que o das vari�
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="6.-Gerador-de-express&#245;es"><a id="aula_tres-gerador">6. Gerador de express&#245;es</a><a class="anchor-link" href="#6.-Gerador-de-express&#245;es">&#182;</a></h3><p>Aqui está um conceito legal que combina geradores e compreensão de listas! Na verdade, você pode criar um gerador da mesma maneira que normalmente escreveria uma compreensão da lista, utilizando parênteses em vez de colchetes. Por exemplo:</p>
+<h3 id="6.-Gerador-de-express&#245;es"><a id="aula_tres-gerador">6. Gerador de express&#245;es</a></h3><p>Aqui está um conceito legal que combina geradores e compreensão de listas! Na verdade, você pode criar um gerador da mesma maneira que normalmente escreveria uma compreensão da lista, utilizando parênteses em vez de colchetes. Por exemplo:</p>
 
 </div>
 </div>

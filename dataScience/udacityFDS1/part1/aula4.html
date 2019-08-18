@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>introducao_python-aula4</title>
+  <title>Introdução a Python - Aula 4</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13116,14 +13116,14 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Introdu&#231;&#227;o-a-Python---Aula-4">Introdu&#231;&#227;o a Python - Aula 4<a class="anchor-link" href="#Introdu&#231;&#227;o-a-Python---Aula-4">&#182;</a></h1><p><br><br>
+<h1 id="Introdu&#231;&#227;o-a-Python---Aula-4">Introdu&#231;&#227;o a Python - Aula 4</h1><p><br><br>
 <a href="#aula_quatro"><strong>Scripting</strong></a><br>
 1 - <a href="#aula_quatro-exec">Executando um script em Python</a><br>
 2 - <a href="#aula_quatro-erros">Erros e exceções</a><br>
 3 - <a href="#aula_quatro-arquivos">Lendo e escrevendo arquivos</a><br>
 4 - <a href="#aula_quatro-import">Importando arquivos</a><br>
 5 - <a href="#aula_quatro-interpretador">Experimentando um interpretador</a><br></p>
-<h2 id="Scripting"><a id="aula_quatro">Scripting</a><a class="anchor-link" href="#Scripting">&#182;</a></h2><ul>
+<h2 id="Scripting"><a id="aula_quatro">Scripting</a></h2><ul>
 <li>Execução e edição de scripts em Python</li>
 <li>Interação com a entrada do usuário</li>
 <li>Tratamento de exceções</li>
@@ -13131,7 +13131,7 @@ div#notebook {
 <li>Importação de módulos locais, padrões e de terceiros</li>
 <li>Experimentação com um interpretador</li>
 </ul>
-<h3 id="1.-Executando-um-script-em-Python"><a id="aula_quatro-exec">1. Executando um script em Python</a><a class="anchor-link" href="#1.-Executando-um-script-em-Python">&#182;</a></h3><ol>
+<h3 id="1.-Executando-um-script-em-Python"><a id="aula_quatro-exec">1. Executando um script em Python</a></h3><ol>
 <li>Crie um arquivo first_script.py, por exemplo, em um diretório apropriado no seu computador e adicione um print com alguma frase de sua preferência. Esse pode ser um bom momento para configurar um novo diretório para sua aprendizagem, se você ainda não tiver um.</li>
 <li>Abra o terminal e navegue até o diretório que contém o arquivo criado.</li>
 <li>Agora que você está no diretório com o arquivo, você pode executá-lo rodando o comando <code>python first_script.py</code>.</li>
@@ -13174,7 +13174,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="1.1.-Editando-um-script-em-Python">1.1. Editando um script em Python<a class="anchor-link" href="#1.1.-Editando-um-script-em-Python">&#182;</a></h4><p>Abra um novo arquivo vazio em seu editor de texto, nomeie e salve-o no local onde você mantém os arquivos de seu aprendizado de Python. Coloque o seguinte código no arquivo:</p>
+<h4 id="1.1.-Editando-um-script-em-Python">1.1. Editando um script em Python</h4><p>Abra um novo arquivo vazio em seu editor de texto, nomeie e salve-o no local onde você mantém os arquivos de seu aprendizado de Python. Coloque o seguinte código no arquivo:</p>
 
 </div>
 </div>
@@ -13239,7 +13239,7 @@ Welcome to Python3!
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="1.2.-Scripting-com-entrada">1.2. Scripting com entrada<a class="anchor-link" href="#1.2.-Scripting-com-entrada">&#182;</a></h4><p>Podemos obter uma entrada bruta do usuário com a função interna input, que recebe como argumento uma string opcional que você pode usar para especificar qual mensagem é exibida ao usuário ao pedir a entrada.</p>
+<h4 id="1.2.-Scripting-com-entrada">1.2. Scripting com entrada</h4><p>Podemos obter uma entrada bruta do usuário com a função interna input, que recebe como argumento uma string opcional que você pode usar para especificar qual mensagem é exibida ao usuário ao pedir a entrada.</p>
 
 </div>
 </div>
@@ -13370,11 +13370,11 @@ hello! hello! hello! hello!
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="2.-Erros-e-exce&#231;&#245;es"><a id="aula_quatro-erros">2. Erros e exce&#231;&#245;es</a><a class="anchor-link" href="#2.-Erros-e-exce&#231;&#245;es">&#182;</a></h3><ul>
+<h3 id="2.-Erros-e-exce&#231;&#245;es"><a id="aula_quatro-erros">2. Erros e exce&#231;&#245;es</a></h3><ul>
 <li><strong>Erros de sintaxe</strong> ocorrem quando o Python não pode interpretar nosso código por não seguirmos a sintaxe correta para Python. Estes são erros que é provável que você cometa quando há um erro de digitação ou quando está começando a aprender Python.</li>
 <li><strong>Exceções</strong> ocorrem quando coisas inesperadas acontecem durante a execução de um programa, mesmo que o código esteja sintaticamente correto. Existem diferentes tipos de exceções internas em Python, e você pode ver qual foi a exceção lançada na mensagem de erro.</li>
 </ul>
-<h4 id="2.1.-Declara&#231;&#227;o-try">2.1. Declara&#231;&#227;o try<a class="anchor-link" href="#2.1.-Declara&#231;&#227;o-try">&#182;</a></h4><p>Podemos utilizar declarações try para lidar com exceções. Existem quatro cláusulas que você pode usar (uma além daquelas mostrados no vídeo).</p>
+<h4 id="2.1.-Declara&#231;&#227;o-try">2.1. Declara&#231;&#227;o try</h4><p>Podemos utilizar declarações try para lidar com exceções. Existem quatro cláusulas que você pode usar (uma além daquelas mostrados no vídeo).</p>
 <ul>
 <li><code>try</code>: Essa é a única cláusula mandatória em uma declaração <code>try</code>. O código neste bloco é a primeira coisa que o Python executa em uma declaração <code>try</code>.</li>
 <li><code>except</code>: Se o Python encontra uma exceção durante a execução do bloco <code>try</code>, ele vai saltar para o bloco <code>except</code> que lida com aquela exceção.</li>
@@ -13440,7 +13440,7 @@ Número válido digitado!
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="2.2.-Especificando-exce&#231;&#245;es">2.2. Especificando exce&#231;&#245;es<a class="anchor-link" href="#2.2.-Especificando-exce&#231;&#245;es">&#182;</a></h4><p>Se quisermos interromper a execução do programa com o comando <code>ctrl+C</code>, o código irá continuar a tratar esta entrada como uma exceção, pois não foi especificada o tipo de exceção. Para tratar disso podemos especificar com qual erro queremos lidar em um bloco <code>except</code>, desta maneira:</p>
+<h4 id="2.2.-Especificando-exce&#231;&#245;es">2.2. Especificando exce&#231;&#245;es</h4><p>Se quisermos interromper a execução do programa com o comando <code>ctrl+C</code>, o código irá continuar a tratar esta entrada como uma exceção, pois não foi especificada o tipo de exceção. Para tratar disso podemos especificar com qual erro queremos lidar em um bloco <code>except</code>, desta maneira:</p>
 
 </div>
 </div>
@@ -13558,7 +13558,7 @@ Número válido digitado!
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="2.3.-Acessando-as-mensagens-de-erro">2.3. Acessando as mensagens de erro<a class="anchor-link" href="#2.3.-Acessando-as-mensagens-de-erro">&#182;</a></h4><p>Quando você lida com uma exceção, ainda pode acessar sua mensagem de erro desta forma:</p>
+<h4 id="2.3.-Acessando-as-mensagens-de-erro">2.3. Acessando as mensagens de erro</h4><p>Quando você lida com uma exceção, ainda pode acessar sua mensagem de erro desta forma:</p>
 
 </div>
 </div>
@@ -13681,8 +13681,8 @@ Tentativa de entrada!
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="3.-Lendo-e-escrevendo-arquivos"><a id="aula_quatro-arquivos">3. Lendo e escrevendo arquivos</a><a class="anchor-link" href="#3.-Lendo-e-escrevendo-arquivos">&#182;</a></h3><p>Crie um novo arquivo, escolha o concetúdo de acordo com sua preferência e salve-o no seu diretório de aprendizado.</p>
-<h4 id="3.1.-Lendo-um-arquivo">3.1. Lendo um arquivo<a class="anchor-link" href="#3.1.-Lendo-um-arquivo">&#182;</a></h4>
+<h3 id="3.-Lendo-e-escrevendo-arquivos"><a id="aula_quatro-arquivos">3. Lendo e escrevendo arquivos</a></h3><p>Crie um novo arquivo, escolha o concetúdo de acordo com sua preferência e salve-o no seu diretório de aprendizado.</p>
+<h4 id="3.1.-Lendo-um-arquivo">3.1. Lendo um arquivo</h4>
 </div>
 </div>
 </div>
@@ -13731,7 +13731,7 @@ You&#39;ve read the contents of this file!
 <li>Use o método <code>read</code> para acessar o conteúdo do objeto de arquivo. Este método <code>read</code> recebe o texto contido em um arquivo e o coloca em uma string. Aqui, podemos atribuir a string devolvida por esse método para a variável <code>file_data</code>.</li>
 <li>Ao terminar com o arquivo, use o método <code>close</code> para liberar quaisquer recursos do sistema ocupados pelo arquivo.</li>
 </ol>
-<h4 id="3.2.-Escrevendo-em-um-arquivo">3.2. Escrevendo em um arquivo<a class="anchor-link" href="#3.2.-Escrevendo-em-um-arquivo">&#182;</a></h4>
+<h4 id="3.2.-Escrevendo-em-um-arquivo">3.2. Escrevendo em um arquivo</h4>
 </div>
 </div>
 </div>
@@ -13781,7 +13781,7 @@ You&#39;ve read the contents of this file!
 <li>Use o método de escrita <code>write()</code> para adicionar texto ao arquivo.</li>
 <li>Feche o arquivo quando terminar.</li>
 </ol>
-<h4 id="3.3.-Muitos-arquivos-abertos">3.3. Muitos arquivos abertos<a class="anchor-link" href="#3.3.-Muitos-arquivos-abertos">&#182;</a></h4><p>Execute o seguinte script em Python para ver o que acontece quando você abre muitos arquivos sem fechá-los!</p>
+<h4 id="3.3.-Muitos-arquivos-abertos">3.3. Muitos arquivos abertos</h4><p>Execute o seguinte script em Python para ver o que acontece quando você abre muitos arquivos sem fechá-los!</p>
 
 </div>
 </div>
@@ -13805,7 +13805,7 @@ You&#39;ve read the contents of this file!
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="3.3.-With">3.3. With<a class="anchor-link" href="#3.3.-With">&#182;</a></h4><p>O Python fornece uma sintaxe especial que fecha automaticamente um arquivo assim que você terminar de usá-lo.</p>
+<h4 id="3.3.-With">3.3. With</h4><p>O Python fornece uma sintaxe especial que fecha automaticamente um arquivo assim que você terminar de usá-lo.</p>
 
 </div>
 </div>
@@ -13835,7 +13835,7 @@ You&#39;ve read the contents of this file!
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="4.-Importando-arquivos"><a id="aula_quatro-import">4. Importando arquivos</a><a class="anchor-link" href="#4.-Importando-arquivos">&#182;</a></h3><h4 id="4.1.-Importando-scripts-locais">4.1. Importando scripts locais<a class="anchor-link" href="#4.1.-Importando-scripts-locais">&#182;</a></h4><p>Na realidade, podemos importar códigos Python de outros scripts, o que é útil se você estiver trabalhando em um projeto maior no qual você deseja organizar seu código em vários arquivos e reutilizar esses códigos. Se o script Python que você deseja importar estiver no mesmo diretório que o script atual, apenas digite <code>import</code> seguido do nome do arquivo <strong><em>sem</em> a extensão <code>.py</code></strong>.</p>
+<h3 id="4.-Importando-arquivos"><a id="aula_quatro-import">4. Importando arquivos</a></h3><h4 id="4.1.-Importando-scripts-locais">4.1. Importando scripts locais</h4><p>Na realidade, podemos importar códigos Python de outros scripts, o que é útil se você estiver trabalhando em um projeto maior no qual você deseja organizar seu código em vários arquivos e reutilizar esses códigos. Se o script Python que você deseja importar estiver no mesmo diretório que o script atual, apenas digite <code>import</code> seguido do nome do arquivo <strong><em>sem</em> a extensão <code>.py</code></strong>.</p>
 
 </div>
 </div>
@@ -13900,10 +13900,10 @@ You&#39;ve read the contents of this file!
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="4.2.-Utilizando-um-bloco-principal">4.2. Utilizando um bloco principal<a class="anchor-link" href="#4.2.-Utilizando-um-bloco-principal">&#182;</a></h4><p>Para evitar a execução de declarações executáveis de um script quando elas foram importadas como um módulo em outro script, inclua essas linhas em um bloco if <code>__name__ == "__main__"</code>. Ou, alternativamente, inclua-os em uma função chamada main() e utilize-a no bloco <code>if main</code>.
+<h4 id="4.2.-Utilizando-um-bloco-principal">4.2. Utilizando um bloco principal</h4><p>Para evitar a execução de declarações executáveis de um script quando elas foram importadas como um módulo em outro script, inclua essas linhas em um bloco if <code>__name__ == "__main__"</code>. Ou, alternativamente, inclua-os em uma função chamada main() e utilize-a no bloco <code>if main</code>.
 Sempre que podemos executar um script como este, o Python na verdade define uma variável interna especial chamada <code>__name__</code> para qualquer módulo. Quando executamos um script, o Python reconhece este módulo como o programa principal e define a variável <code>__name__</code> para este módulo para a string <code>“__main__”</code>. Para quaisquer módulos importados neste script, essa variável interna <code>__name__</code> só é definida para o nome desse módulo. Portanto, a condição de if <code>__name__ == "__main__"</code> só está checando se este módulo é o programa principal.</p>
-<h4 id="4.3.-A-biblioteca-padr&#227;o">4.3. A biblioteca padr&#227;o<a class="anchor-link" href="#4.3.-A-biblioteca-padr&#227;o">&#182;</a></h4><p>Você pode descobrir novos módulos no blog <a href="https://pymotw.com/3/">Módulo Python da semana</a>.</p>
-<h4 id="4.4.-T&#233;cnicas-para-a-importa&#231;&#227;o-de-m&#243;dulos">4.4. T&#233;cnicas para a importa&#231;&#227;o de m&#243;dulos<a class="anchor-link" href="#4.4.-T&#233;cnicas-para-a-importa&#231;&#227;o-de-m&#243;dulos">&#182;</a></h4><p>Existem outras variantes de declarações import que são úteis em diferentes situações.</p>
+<h4 id="4.3.-A-biblioteca-padr&#227;o">4.3. A biblioteca padr&#227;o</h4><p>Você pode descobrir novos módulos no blog <a href="https://pymotw.com/3/">Módulo Python da semana</a>.</p>
+<h4 id="4.4.-T&#233;cnicas-para-a-importa&#231;&#227;o-de-m&#243;dulos">4.4. T&#233;cnicas para a importa&#231;&#227;o de m&#243;dulos</h4><p>Existem outras variantes de declarações import que são úteis em diferentes situações.</p>
 <ol>
 <li>Para importar uma função individual ou a uma classe de um módulo:</li>
 </ol>
@@ -14042,7 +14042,7 @@ Sempre que podemos executar um script como este, o Python na verdade define uma 
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="M&#243;dulos,-pacotes-e-nomes">M&#243;dulos, pacotes e nomes<a class="anchor-link" href="#M&#243;dulos,-pacotes-e-nomes">&#182;</a></h4><p>Para gerenciar melhor o código, os módulos da biblioteca padrão do Python estão divididos em submódulos que estão contidos dentro de um pacote. Um pacote é simplesmente um módulo que contém submódulos. Um submódulo é especificado com a notação habitual de ponto.</p>
+<h4 id="M&#243;dulos,-pacotes-e-nomes">M&#243;dulos, pacotes e nomes</h4><p>Para gerenciar melhor o código, os módulos da biblioteca padrão do Python estão divididos em submódulos que estão contidos dentro de um pacote. Um pacote é simplesmente um módulo que contém submódulos. Um submódulo é especificado com a notação habitual de ponto.</p>
 <p>Módulos que são submódulos são especificados pelo nome do pacote seguido pelo nome do submódulo separados por um ponto. Você pode importar o submódulo assim.</p>
 
 </div>
@@ -14064,9 +14064,9 @@ Sempre que podemos executar um script como este, o Python na verdade define uma 
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="4.5.-Bibliotecas-de-terceiros">4.5. Bibliotecas de terceiros<a class="anchor-link" href="#4.5.-Bibliotecas-de-terceiros">&#182;</a></h4><p>Existem dezenas de milhares de bibliotecas de terceiros escritas por desenvolvedores independentes! Você pode instalá-las usando o <code>pip</code>, um gerenciador de pacotes que está incluso no Python 3. O <code>pip</code> é o gerenciador de pacotes padrão para o Python, mas não é o único. Uma alternativa popular é o Anaconda, que é projetado especificamente para ciência de dados.</p>
+<h4 id="4.5.-Bibliotecas-de-terceiros">4.5. Bibliotecas de terceiros</h4><p>Existem dezenas de milhares de bibliotecas de terceiros escritas por desenvolvedores independentes! Você pode instalá-las usando o <code>pip</code>, um gerenciador de pacotes que está incluso no Python 3. O <code>pip</code> é o gerenciador de pacotes padrão para o Python, mas não é o único. Uma alternativa popular é o Anaconda, que é projetado especificamente para ciência de dados.</p>
 <p>Para instalar um pacote usando o pip, basta digitar <code>'pip install'</code> seguido do nome do pacote em sua linha de comando, assim: <code>pip install package_name</code>. Isso baixa e instala o pacote para que ele esteja disponível para importação em seus programas. Uma vez instalado, você pode importar pacotes de terceiros usando a mesma sintaxe usada para importar da biblioteca padrão.</p>
-<h5 id="4.5.1.-Usando-um-arquivo-requirements.txt">4.5.1. Usando um arquivo requirements.txt<a class="anchor-link" href="#4.5.1.-Usando-um-arquivo-requirements.txt">&#182;</a></h5><p>Programas maiores em Python podem depender de dezenas de pacotes de terceiros. Para facilitar o compartilhamento desses programas, os programadores frequentemente listam as dependências do projeto em um arquivo chamado requirements.txt. Este é um exemplo de um arquivo requirements.txt.</p>
+<h5 id="4.5.1.-Usando-um-arquivo-requirements.txt">4.5.1. Usando um arquivo requirements.txt</h5><p>Programas maiores em Python podem depender de dezenas de pacotes de terceiros. Para facilitar o compartilhamento desses programas, os programadores frequentemente listam as dependências do projeto em um arquivo chamado requirements.txt. Este é um exemplo de um arquivo requirements.txt.</p>
 
 </div>
 </div>
@@ -14092,7 +14092,7 @@ Sempre que podemos executar um script como este, o Python na verdade define uma 
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Cada linha do arquivo inclui o nome de um pacote e seu número de versão. O número de versão é opcional, mas geralmente é incluído. Bibliotecas podem mudar sutilmente ou drasticamente entre as versões, por isso, é importante usar as mesmas versões de biblioteca que foram utilizadas para escrever o programa.</p>
 <p>Você pode usar o pip para instalar todas as dependências do projeto ao mesmo tempo, digitando <code>pip install -r requirements.txt</code> em sua linha de comando.</p>
-<h5 id="4.5.2.-Pacotes-&#250;teis-de-terceiros">4.5.2. Pacotes &#250;teis de terceiros<a class="anchor-link" href="#4.5.2.-Pacotes-&#250;teis-de-terceiros">&#182;</a></h5><p>Ser capaz de instalar e importar bibliotecas de terceiros é útil, mas, para ser um programador eficaz, você também precisa saber quais bibliotecas estão disponíveis uso. As pessoas geralmente aprendem sobre novas bibliotecas úteis por meio de recomendações online ou de colegas. Se você for um programador novo em Python, pode não ter muitos colegas, então, para começar, aqui está uma lista de pacotes que são populares entre os engenheiros da Udacity.</p>
+<h5 id="4.5.2.-Pacotes-&#250;teis-de-terceiros">4.5.2. Pacotes &#250;teis de terceiros</h5><p>Ser capaz de instalar e importar bibliotecas de terceiros é útil, mas, para ser um programador eficaz, você também precisa saber quais bibliotecas estão disponíveis uso. As pessoas geralmente aprendem sobre novas bibliotecas úteis por meio de recomendações online ou de colegas. Se você for um programador novo em Python, pode não ter muitos colegas, então, para começar, aqui está uma lista de pacotes que são populares entre os engenheiros da Udacity.</p>
 <ul>
 <li><a href="https://ipython.org/">IPython</a> - um interpretador interativo do Python.</li>
 <li><a href="http://docs.python-requests.org/">requests</a> - fornece métodos fáceis de usar para fazer solicitações na web. Útil para acessar APIs da web.</li>
@@ -14117,7 +14117,7 @@ Sempre que podemos executar um script como este, o Python na verdade define uma 
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="5.-Experimentando-um-interpretador"><a id="aula_quatro-interpretador">5. Experimentando um interpretador</a><a class="anchor-link" href="#5.-Experimentando-um-interpretador">&#182;</a></h3><p>Inicie seu interpretador interativo do Python digitando o comando <code>python</code> em seu terminal. Você pode digitá-lo aqui para interagir diretamente com o Python. Este é um lugar incrível para experimentar e testar um pedaço de código Python de cada vez. Basta digitar o código Python, que a saída aparecerá na linha seguinte.</p>
+<h3 id="5.-Experimentando-um-interpretador"><a id="aula_quatro-interpretador">5. Experimentando um interpretador</a></h3><p>Inicie seu interpretador interativo do Python digitando o comando <code>python</code> em seu terminal. Você pode digitá-lo aqui para interagir diretamente com o Python. Este é um lugar incrível para experimentar e testar um pedaço de código Python de cada vez. Basta digitar o código Python, que a saída aparecerá na linha seguinte.</p>
 
 </div>
 </div>
