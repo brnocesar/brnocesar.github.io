@@ -46,9 +46,10 @@ body, html {
 }
 
 #contentDiv {
-    height: 100vh;
+    height: 83vh;
     /* width: 100vw; */
     padding-top:60px;
+    padding-bottom:200px;
     background-color:rgb(167, 216, 245);
 }
 
