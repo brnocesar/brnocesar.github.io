@@ -3,6 +3,8 @@ html, body {
     font-family: 'Verdana', Geneva, sans-serif;
 }
 
+
+/* # # # # # --- navbar --- # # # # # */
 .navbar {
     /* background-color:rgb(65, 84, 90); */
     background-color:#2f4650;
@@ -51,6 +53,8 @@ html, body {
     /* https://www.pair.com/support/kb/how-to-change-bootstrap-button-styling/ */
 }
 
+
+/* # # # # # --- conteudo da página --- # # # # # */
 .content-page {
     padding-right: 16px;
     padding-left: 10px;
@@ -60,21 +64,31 @@ html, body {
 
 main {
     min-height: 100%;
-    margin-bottom:-100px;
+    margin-bottom:-90px;
     background-color:rgb(230, 228, 227);
 }
 
-main:after {
-    content: "";
-    display: block;
-}
 
 .p-home {
     text-align: justify;
 }
 
+li a {
+    color: #493452;
+}
+li a:hover {
+    color: #c94f33;
+    text-decoration: none;
+}
+
+/* # # # # # --- rodapé --- # # # # # */
+main:after {
+    content: "";
+    display: block;
+}
+
 footer, main:after {
-    height: 100px; 
+    height: 90px; 
 }
 
 footer {
@@ -90,10 +104,29 @@ footer {
 }
 
 .content-footer {
-    /* padding-right: 16px; */
-    /* padding-left: 10px; */
+    text-align: center;
 }
 
-.links-footer {
-    text-align: center;
+.links-footer span{
+    /* font-color: #2f4650; */
+    /* text-align: center; */
+    /* text-align: right; */
+    align-items: center;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+span {
+    /* display: inline-block;
+    vertical-align: middle;
+    line-height: normal; */
+}
+
+span a{
+    color: #493452;
+}
+span a:hover{
+    color: #c94f33;
+    text-decoration: none;
 }
