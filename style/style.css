@@ -55,30 +55,30 @@ html, body {
 
 
 /* # # # # # --- conteudo da página --- # # # # # */
-.content-page {
-    padding-right: 16px;
-    padding-left: 10px;
-    padding-top:60px;
-    background-color:rgb(230, 228, 227);
-}
-
 main {
     min-height: 100%;
     margin-bottom:-110px;
     background-color:rgb(230, 228, 227);
 }
 
+.page-row {
+    padding-right: 16px;
+    padding-left: 10px;
+    padding-top: 60px;
+    background-color:rgb(230, 228, 227);
+}
 
-.p-home {
+.page-content > p {
     text-align: justify;
 }
 
-li a {
+.page-content > ul > li > a {
     color: #493452;
 }
-li a:hover {
+.page-content > ul > li > a:hover {
     color: #c94f33;
     text-decoration: none;
+    transition: 0.5s;
 }
 
 /* # # # # # --- rodapé --- # # # # # */
@@ -103,36 +103,29 @@ footer {
     border-image-slice: 1;
 }
 
-.content-footer {
-    text-align: center;
-}
-
-.links-footer {
-    /* font-color: #2f4650; */
-    /* text-align: center; */
-    /* text-align: right; */
+.footer-content {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    display: inline-block;
+    flex-wrap: wrap;
     vertical-align: middle;
-    line-height: normal;
 }
 
-span {
-    /* display: inline-block;
-    vertical-align: middle;
-    line-height: normal; */
+.footer-content > a {
+    margin: 20px;
 }
 
 .fab {
-    /* display: flex; */
     color: #2f4650;
     font-size: 30px;
-    padding: 20px;
 }
-a:hover i {
+
+.fab:hover {
     text-decoration: none;
     opacity: .7;
+    transition: .5s;
 }
-a:focus, a:active, a:visited, a:link{
+
+.fab:focus, .fab:active, .fab:visited, .fab:link{
     text-decoration: none;
 }
