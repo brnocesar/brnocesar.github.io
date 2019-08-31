@@ -6,7 +6,6 @@ html, body {
 
 /* # # # # # --- navbar --- # # # # # */
 .navbar {
-    /* background-color:rgb(65, 84, 90); */
     background-color:#2f4650;
     border-top-width: 5px;
     border-style: solid;
@@ -27,11 +26,6 @@ html, body {
     padding-left: 10px;
 }
 
-/* .row {
-    padding-right: 16px;
-    padding-left: 10px;
-} */
-
 .bat-circle {
     background-color: rgb(65, 84, 90);
     border-radius: 20%;
@@ -49,10 +43,27 @@ html, body {
     height:"35";
 }
 
-.btn-alguma-coisa {
-    /* https://www.pair.com/support/kb/how-to-change-bootstrap-button-styling/ */
+.nav-item > div > .btn:hover { /* botões da navbar */
+    background: linear-gradient( 90deg, #c9bacd, #edb0a1 );
+    color: #2f4650;
+    border-color: #9d79ac;
+}
+.nav-item > div > .dropdown-menu  { /* gavetinha */
+    background: linear-gradient( 90deg, #c9bacd, #edb0a1 );
+    color: #2f4650;
+}
+.dropdown-divider {
+    border-color: #bf9cc9;
+}
+.nav-item > div > .dropdown-menu > .dropdown-item:hover, .nav-item > div > .dropdown-menu > .dropdown-item:active { /* botoes dentro da gavetinha */
+    background: #7c8186;
+    color: white;
+    border-radius: 4px; 
 }
 
+.nav-item > div > .dropdown-menu > .dropdown-item:hover {
+    /* background: linear-gradient( 90deg, #9d79ac65, #f7654469 ); */
+}
 
 /* # # # # # --- conteudo da página --- # # # # # */
 main {
@@ -62,14 +73,16 @@ main {
 }
 
 .page-row {
-    padding-right: 16px;
-    padding-left: 10px;
     padding-top: 60px;
     background-color:rgb(230, 228, 227);
 }
 
 .page-content > p {
     text-align: justify;
+}
+
+h1, h2, h3 {
+    color: #1f2e35;
 }
 
 .page-content > ul > li > a {
