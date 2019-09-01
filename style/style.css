@@ -77,38 +77,6 @@ html, body {
     border-radius: .25rem; 
 }
 
-.nav-item > div > .dropdown-menu > .dropdown-item:hover {
-    /* background: linear-gradient( 90deg, #9d79ac65, #f7654469 ); */
-}
-
-/* # # # # # --- conteudo da página --- # # # # # */
-main {
-    min-height: 100%;
-    margin-bottom:-110px;
-    background-color:rgb(230, 228, 227);
-}
-
-.page-row {
-    padding-top: 60px;
-    background-color:rgb(230, 228, 227);
-}
-
-.page-content > p {
-    text-align: justify;
-}
-
-h1, h2, h3 {
-    color: #1f2e35;
-}
-
-.page-content > ul > li > a {
-    color: #493452;
-}
-.page-content > ul > li > a:hover {
-    color: #c94f33;
-    text-decoration: none;
-    transition: 0.5s;
-}
 
 /* # # # # # --- rodapé --- # # # # # */
 main:after {
@@ -157,4 +125,34 @@ footer {
 
 .fab:focus, .fab:active, .fab:visited, .fab:link{
     text-decoration: none;
+}
+
+
+/* # # # # # --- conteudo da página --- # # # # # */
+main {
+    min-height: 100%;
+    margin-bottom:-110px;
+    background-color:rgb(230, 228, 227);
+}
+
+.page-row {
+    padding-top: 60px;
+    background-color:rgb(230, 228, 227);
+}
+
+.page-content > p {
+    text-align: justify;
+}
+
+h1, h2, h3 {
+    color: #1f2e35;
+}
+
+.page-content > ul > li > a {
+    color: #493452;
+}
+.page-content > ul > li > a:hover {
+    color: #c94f33;
+    text-decoration: none;
+    transition: 0.5s;
 }

@@ -10,14 +10,67 @@
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 
 	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="../../style/icons/css/all.css" rel="stylesheet">
 
 	<title>Ecomp - Unicorn</title>
 </head>
 
 	<body>
 
+		<header class="navbar fixed-top navbar-expand-sm navbar-dark">
+			<a href="https://github.com/brnocesar" target="_blank">
+				<span class="navbar-brand mb-0">
+					<div class="row bat-plus-signature align-items-center" style="white-space: nowrap;">
+						<div class="bat-circle">
+							<img src="../../style/imagens/batbaby.jpg">
+						</div>
+						<div style="padding-left: 5px;">
+							<span>@brnocesar</span>
+						</div>
+					</div>
+				</span>
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarToggleado" aria-controls="conteudoNavbarToggleado" aria-expanded="false" aria-label="Alterna navegação">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+						
+				<div class="collapse navbar-collapse justify-content-end" id="conteudoNavbarToggleado"> <!-- jogar esses botoes para a direita -->
+					<div> 
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item">
+								<div>
+									<a class="btn btn-outline-light btn-block" role="button" href="../../index.html" target="">Início</a>
+								</div>
+							</li>
+							<li class="nav-item dropdown">
+								<div>
+									<button type="button" class="btn btn-outline-light btn-block dropdown-toggle" id="navbarDropdownButton" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Ecomp</button>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdownButton">
+										<a class="dropdown-item" href="#">Sobre a Ecomp</a>
+										<div class="dropdown-divider"></div>
+										<a class="dropdown-item" href="ecomp/ps/unicorn.html" target="_blank">Layout</a>
+										<div class="dropdown-divider"></div>
+										<a class="dropdown-item" href="ecomp/kanban/v0.html" target="_blank">Kanban</a>
+									</div>
+								</div>
+							</li>
+							<li class="nav-item">
+								<div>
+									<a class="btn btn-outline-light btn-block" role="button" href="dataScience/udacityFDS1/index.html" target="_blank">Data Science</a>
+								</div>
+							</li>
+							<li class="nav-item">
+								<div>
+									<a class="btn btn-outline-light btn-block" role="button" href="" target="_blank">Links úteis</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</header>
+
 		<!-- 1 - INICIO-->
-		<div id="callingCard">
+		<div id="callingCard" style="padding-top: 65px;">
 			<div class="container">
 				<div class="row">
 					<div class="col-6">
@@ -39,11 +92,24 @@
 				<div class="imageBackground">
 					<div class="row">
 						<div class="col-sm-6"></div>
-						<div class="col-sm-6 align-self-center callingCardText">
+						<div class="col-sm-6 align-self-center">
 							<br></br><br></br><br></br><br></br><br></br>
-							<h1><b>STORYTELLER</b></h1>
-							<p>One morning, when Gregor Samsa woke from trouble dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
-							<button href="https://www.goodreads.com/book/show/485894.The_Metamorphosis">read the rest</button>
+							<h1><b>Ecomp 2019/1 - Trainee</b></h1>
+							<p style="text-align:right;">
+								Está página é o resultado do Projeto Paralelo desenvolvido <strong>em equipe</strong>, como parte do Processo Seletivo para ingresso na Ecomp. O objetivo da atividade foi reproduzir um layout totalmente responsivo e para isso deveriam ser utilizados HTML, CSS e Bootstrap.
+								<br>
+							</p>
+							<p style="text-align:left;">
+								<strong>Membros</strong>
+								<ul>
+									<li>Bruno Cesar</li>
+									<br>
+									<li>Henrique Rieger</li>
+									<br>
+									<li>Lucas Alionço</li>
+								</ul>
+							</p>
+							<button href="https://github.com/brnocesar/ecomp/tree/master/trainee" style="float:right" >Acesse o repositório</button>
 							<br></br>
 						</div>
 					</div>
@@ -180,38 +246,39 @@
 		
 		<!-- 3C - INICIO -->
 		<div class="container-fluid tres-C bg-light">
-		<div class="row">
-			<div class="col">
-				<br><br><h3 class="text-center">Clients</h3><br>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-1"></div>
-
-			<div class="col-sm-10">
 			<div class="row">
-				<div class="col-sm-2 imagem-cliente">
-					<img src="imagens/3C1.png" class="mx-auto d-block"> 
+				<div class="col">
+					<br><br><h3 class="text-center">Clients</h3><br>
 				</div>
-				<div class="col-sm-2 imagem-cliente">
-					<img src="imagens/3C2.png" class="mx-auto d-block"> 
-				</div>
-				<div class="col-sm-2 imagem-cliente">
-					<img src="imagens/3C3.png" class="mx-auto d-block"> 
-				</div>
-				<div class="col-sm-2 imagem-cliente">
-					<img src="imagens/3C4.png" class="mx-auto d-block"> 
-				</div>
-				<div class="col-sm-2 imagem-cliente">
-					<img src="imagens/3C5.png" class="mx-auto d-block"> 
-				</div>
-				<div class="col-sm-2 imagem-cliente">
-					<img src="imagens/3C6.png" class="mx-auto d-block"> 
-				</div>
-			</div><br><br>
 			</div>
-			<div class="col-sm-1"></div>
-		</div>
+			<div class="row">
+				<div class="col-sm-1"></div>
+
+				<div class="col-sm-10">
+					<div class="row">
+						<div class="col-sm-2 imagem-cliente">
+							<img src="imagens/3C1.png" class="mx-auto d-block"> 
+						</div>
+						<div class="col-sm-2 imagem-cliente">
+							<img src="imagens/3C2.png" class="mx-auto d-block"> 
+						</div>
+						<div class="col-sm-2 imagem-cliente">
+							<img src="imagens/3C3.png" class="mx-auto d-block"> 
+						</div>
+						<div class="col-sm-2 imagem-cliente">
+							<img src="imagens/3C4.png" class="mx-auto d-block"> 
+						</div>
+						<div class="col-sm-2 imagem-cliente">
+							<img src="imagens/3C5.png" class="mx-auto d-block"> 
+						</div>
+						<div class="col-sm-2 imagem-cliente">
+							<img src="imagens/3C6.png" class="mx-auto d-block"> 
+						</div>
+					</div>
+				<br><br>
+				</div>
+				<div class="col-sm-1"></div>
+			</div>
 		</div> <!-- 3c - fim-->
 	
 		<!-- 3d - INICIO-->
@@ -591,6 +658,26 @@
 				</div>
 			</div> <!-- 6 FIM-->
 		
+
+		<footer class="footer sticky-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-0 col-md-2 col-lg-2 col-xl-2 py-md-3 pl-md-5 bd-content"></div>
+					<div class="col-12 col-md-8 col-lg-8 col-xl-8 py-md-3 pl-md-5 bd-content footer-content">
+						<a href="https://github.com/brnocesar" target="_blank">
+							<i class="fab fa-github-square"></i>
+						</a>
+						<a href="https://www.linkedin.com/in/brnocesar/" target="_blank">
+							<i class="fab fa-linkedin"></i>
+						</a>
+						<a href="https://www.instagram.com/brnocesar/" target="_blank">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</div>
+					<div class="col-0 col-md-2 col-lg-2 col-xl-2 py-md-3 pl-md-5 bd-content"></div>
+				</div>
+			</div>
+		</footer>
 
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
