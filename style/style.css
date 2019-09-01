@@ -3,6 +3,14 @@ html, body {
     font-family: 'Verdana', Geneva, sans-serif;
 }
 
+::-moz-selection {
+    background: #2f4650;
+    color: white;
+}
+::selection {
+    background: #2f4650;
+    color: white;
+}
 
 /* # # # # # --- navbar --- # # # # # */
 .navbar {
