@@ -24,6 +24,8 @@ html, body {
 .bat-plus-signature {
     padding-right: 16px;
     padding-left: 10px;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .bat-circle {
@@ -45,12 +47,18 @@ html, body {
 
 .nav-item > div > .btn:hover { /* botões da navbar */
     background: linear-gradient( 90deg, #c9bacd, #edb0a1 );
-    color: #2f4650;
+    color: #21253e;
+    border-color: #9d79ac;
+}
+.show > .btn-outline-light.dropdown-toggle { /*  */
+    /* porque '.btn-outline-light' deve ficar junto de '.dropdown-toggle', sem separar com espaço? */
+    background: linear-gradient( 90deg, #c9bacd, #edb0a1 );
+    color: #21253e;
     border-color: #9d79ac;
 }
 .nav-item > div > .dropdown-menu  { /* gavetinha */
     background: linear-gradient( 90deg, #c9bacd, #edb0a1 );
-    color: #2f4650;
+    color: #21253e;
 }
 .dropdown-divider {
     border-color: #bf9cc9;
@@ -58,7 +66,7 @@ html, body {
 .nav-item > div > .dropdown-menu > .dropdown-item:hover, .nav-item > div > .dropdown-menu > .dropdown-item:active { /* botoes dentro da gavetinha */
     background: #7c8186;
     color: white;
-    border-radius: 4px; 
+    border-radius: .25rem; 
 }
 
 .nav-item > div > .dropdown-menu > .dropdown-item:hover {
