@@ -29,25 +29,23 @@ html, body {
     padding: 3px;
 }
 
-.bat-plus-signature {
+.brand-plus-signature {
     padding-right: 16px;
     padding-left: 10px;
     display: flex;
     flex-wrap: nowrap;
 }
 
-.bat-circle {
+.brand-circle {
     background-color: rgb(65, 84, 90);
-    border-radius: 20%;
+    border-radius: 30%;
     width: 35px;
     height: 35px;
     overflow: hidden;
     position: relative;
 }
   
-.bat-circle img {
-    /* position: absolute; */
-    /* bottom: 0; */
+.brand-circle img {
     width: 100%;
     width:"35";
     height:"35";
