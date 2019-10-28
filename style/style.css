@@ -29,11 +29,12 @@ html, body {
     padding: 3px;
 }
 
-.brand-plus-signature {
+.brand-profile-pic {
     padding-right: 16px;
     padding-left: 10px;
     display: flex;
     flex-wrap: nowrap;
+    white-space: nowrap;
 }
 
 .brand-circle {
@@ -49,6 +50,10 @@ html, body {
     width: 100%;
     width:"35";
     height:"35";
+}
+
+.brand-profile-pic > div > span{
+    padding-left: 5px;
 }
 
 .nav-item > div > .btn:hover { /* botões da navbar */
@@ -144,6 +149,11 @@ main {
 
 h1, h2, h3 {
     color: #1f2e35;
+}
+
+.quote-signature{
+    text-align: right; 
+    font-style: italic;
 }
 
 .page-content > ul > li > a {
