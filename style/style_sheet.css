@@ -45,7 +45,7 @@ html, body {
     overflow: hidden;
     position: relative;
 }
-  
+
 .brand-circle img {
     width: 100%;
     width:"35";
@@ -56,18 +56,24 @@ html, body {
     padding-left: 5px;
 }
 
-.nav-item > div > .btn:hover { /* botões da navbar */
+.nav-item > div > .btn {
+    background: none;
+    color: #e6e4e3;
+    border-color: #e6e4e3;
+}
+
+.nav-item > div > .btn:hover {
     background: linear-gradient( 90deg, #c9bacd, #edb0a1 );
     color: #21253e;
     border-color: #9d79ac;
 }
-.show > .btn-outline-light.dropdown-toggle { /*  */
+.show > .btn-outline-light.dropdown-toggle {
     /* porque '.btn-outline-light' deve ficar junto de '.dropdown-toggle', sem separar com espaço? */
     background: linear-gradient( 90deg, #c9bacd, #edb0a1 );
     color: #21253e;
     border-color: #9d79ac;
 }
-.nav-item > div > .dropdown-menu  { /* gavetinha */
+.nav-item > div > .dropdown-menu  {
     background: linear-gradient( 90deg, #c9bacd, #edb0a1 );
     color: #21253e;
 }
