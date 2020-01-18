@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="../style/main.css" type="text/css">
+        <link rel="stylesheet" href="slide.css" type="text/css">
+        <link rel="shortcut icon" href="../style/brand/brand_favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="../style/icons/css/all.css">
+        
+        <title>@brnocesar</title>
+    </head>
+
+    <body>
+        <header class="navbar fixed-top navbar-expand-sm navbar-dark">
+            <a href="https://github.com/brnocesar" target="_blank">
+                <span class="navbar-brand mb-0">
+                    <div class="row brand-profile-pic align-items-center">
+                        <div class="brand-circle">
+                            <img src="../style/brand/perfil.png">
+                        </div>
+                        <div>
+                            <span>@brnocesar</span>
+                        </div>
+                    </div>
+                </span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarToggleado" aria-controls="conteudoNavbarToggleado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                
+            <div class="collapse navbar-collapse justify-content-end" id="conteudoNavbarToggleado">
+                <div> 
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <div>
+                                <a class="btn btn-block" role="button" href="index.html" target="">Início</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <div>
+                                <button type="button" class="btn btn-block dropdown-toggle" id="navbarDropdownButton" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Ecomp</button>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownButton">
+                                    <a class="dropdown-item" href="#">Sobre a Ecomp</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="ecomp/ps/unicorn.html" target="">Layout</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="ecomp/kanban/v0.html" target="_blank">Kanban</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div>
+                                <a class="btn btn-block" role="button" href="dataScience/udacityFDS1/index.html" target="">Data Science</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div>
+                                <a class="btn btn-block" role="button" href="" target="">VS Code</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <main class="container-fluid" role="main">
+
+            <div class="slideshow-container">
+
+                <!-- secao 1 -->
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="images/2.jpg" style="width: 500px">
+                    <div class="text">Caption Text</div>
+                </div>
+                <!-- secao 2 -->
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="images/15.jpg" style="width: 500px">
+                    <div class="text">Caption Two</div>
+                </div>
+                <!-- secao 3 -->
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="images/14 - Neo Kong - Anthony Brault.jpg" style="width: 500px">
+                    <div class="text">Caption Three</div>
+                </div>
+                <!-- botoes laterais -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+            </div>
+    
+            <br>
+    
+            <!-- botoes que devem estar na navbar -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+            
+        </main>
+        
+        <footer class="footer sticky-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-0 col-md-2 col-lg-2 col-xl-2 py-md-3 pl-md-5 bd-content"></div>
+                    <div class="col-12 col-md-8 col-lg-8 col-xl-8 py-md-3 pl-md-5 bd-content footer-content">
+                        <a href="https://github.com/brnocesar" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+			            <a href="https://gitlab.com/brnocesar" target="_blank">
+                            <i class="fab fa-gitlab"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/brnocesar/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.instagram.com/brnocesar/" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="col-0 col-md-2 col-lg-2 col-xl-2 py-md-3 pl-md-5 bd-content"></div>
+                </div>
+            </div>
+        </footer>
+        
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+            showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+            showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) {slideIndex = 1}    
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";  
+                dots[slideIndex-1].className += " active";
+            }
+        </script>
+    </body>
+</html>
