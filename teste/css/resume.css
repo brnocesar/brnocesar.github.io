@@ -1,13 +1,6 @@
-/*!
- * Start Bootstrap -  v ()
- * Copyright 2013-2019 
- * Licensed under  (https://github.com/BlackrockDigital/matheusml.github.io/blob/master/LICENSE)
- */
-
 body {
     font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     padding-top: 54px;
-    /* color: red; */
     color: #1f2e35;
     background: #e6e4e3;
 }
@@ -66,7 +59,6 @@ p.lead {
     width: 3.5rem;
     background-color: #2f4650;
     color: #ca978c !important;
-    /* color: #fff !important; */
     border-radius: 100%;
     text-align: center;
     font-size: 1.5rem;
@@ -79,9 +71,8 @@ p.lead {
 }
 
 .social-icons a:hover {
-    /* background-color: #212529; */
-    text-decoration: none;
-    opacity: .8;
+    color: #fa7e63 !important;
+    background-color: #13171b;
     transition: .5s;
 }
 
@@ -91,7 +82,7 @@ p.lead {
 
 .dev-icons .list-inline-item i:hover {
     /* color: #212529; */
-    text-decoration: none;
+    /* text-decoration: none; */
     opacity: .8;
     transition: .5s;
 }
@@ -100,6 +91,10 @@ p.lead {
     font-weight: 800;
     letter-spacing: 0.05rem;
     text-transform: uppercase;
+}
+
+#sideNav .navbar-nav .nav-item .nav-link:hover {
+    color: #d8afa6;
 }
 
 #sideNav .navbar-toggler:focus {
@@ -133,6 +128,33 @@ p.lead {
         max-width: 10rem;
         max-height: 10rem;
         border: 0.5rem solid rgba(157, 121, 172, 0.4);
+    }
+    .container-img-profile {
+        position: relative;
+        width: 100%;
+    }
+    .main-img-profile {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        backface-visibility: hidden;
+    }
+    .overlay-img-profile {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+    .main-img-profile:hover {
+        opacity: 0;
+    }
+    .overlay-img-profile:hover {
+        opacity: 1;
+        transition: .5s ease;
     }
     #sideNav .navbar-collapse {
         display: -webkit-box;
@@ -191,11 +213,7 @@ section.resume-section .resume-item .resume-date {
 .bg-primary {
     background-color: #2f4650 !important;
     border-top-width: 5px;
-    border-style: solid;
-    border-top-style: none;
-    border-right-style: solid;
-    border-bottom-style: none;
-    border-left-style: none;
+    border-style: none solid none none;
     border-image-source: linear-gradient( 180deg, #9d79ac, #f88166 );
     border-image-slice: 1;
 }
@@ -204,11 +222,7 @@ section.resume-section .resume-item .resume-date {
     .bg-primary {
         background-color: #2f4650 !important;
         border-top-width: 5px;
-        border-style: solid;
-        border-top-style: none;
-        border-right-style: none;
-        border-bottom-style: solid;
-        border-left-style: none;
+        border-style: none none solid none;
         border-image-source: linear-gradient( 180deg, #e6e4e3, #e6e4e3 ) !important;
         border-image-slice: 1;
     }
