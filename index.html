@@ -1,132 +1,237 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <link rel="stylesheet" href="style/main.css" type="text/css">
-        <link rel="shortcut icon" href="style/brand/brand_favicon.ico" type="image/x-icon" />
-        <link rel="stylesheet" href="style/icons/css/all.css">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" />
+        <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
+        <link href="image/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <link href="css/main.css" rel="stylesheet" />
         
         <title>@brnocesar</title>
     </head>
 
-    <body>
-        <header class="navbar fixed-top navbar-expand-sm navbar-dark">
-            <a href="https://github.com/brnocesar" target="_blank">
-                <span class="navbar-brand mb-0">
-                    <div class="row brand-profile-pic align-items-center">
-                        <div class="brand-circle">
-                            <img src="style/brand/perfil2.png">
-                        </div>
-                        <div>
-                            <span>@brnocesar</span>
-                        </div>
-                    </div>
-                </span>
+    <body id="page-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <span class="d-block d-lg-none">Bruno Cesar</span>
+            <span class="d-none d-lg-block container-img-profile">
+                <div class="main-img-profile">
+                    <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="image/main-profile-picture.jpeg" alt="profile picture"/>
+                </div>
+                <div class="overlay-img-profile">
+                    <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="image/overlay-profile-picture.jpg" alt="profile picture"/>
+                </div>
+            </span>
             </a>
-            
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarToggleado" aria-controls="conteudoNavbarToggleado" aria-expanded="false" aria-label="Alterna navegação">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-                
-            <div class="collapse navbar-collapse justify-content-end" id="conteudoNavbarToggleado">
-                <div> 
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <div>
-                                <a class="btn btn-block" role="button" href="index.html" target="">Início</a>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <div>
-                                <button type="button" class="btn btn-block dropdown-toggle" id="navbarDropdownButton" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Ecomp</button>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdownButton">
-                                    <a class="dropdown-item" href="https://github.com/brnocesar/ecomp" target="_blank">Sobre a Ecomp</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="ecomp/ps/unicorn.html" target="">Layout</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="ecomp/kanban/v0.html" target="_blank">Kanban</a>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <div>
-                                <a class="btn btn-block" role="button" href="https://github.com/brnocesar/data-analysis" target="_blank">Análise de Dados</a>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <div>
-                                <button type="button" class="btn btn-block dropdown-toggle" id="navbarDropdownButton" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Testes</button>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdownButton">
-                                    <a class="dropdown-item" href="test-sidebar/index.html" target="_blank">Sidebar</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="test-slide/index.html" target="_blank">Slide</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="teste/index.html" target="_blank">Nova página</a>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <div>
-                                <a class="btn btn-block" role="button" href="https://github.com/brnocesar/utils#" target="_blank">Úteis</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#about">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#experience">Experiências</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#education">Formação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#skills">Habilidades</a>
+                    </li>
+                </ul>
             </div>
-        </header>
+        </nav>
 
-        <main class="container-fluid" role="main">
-            <div class="container">
-                <div class="row page-row">
-                    <div class="col-0 col-md-2 col-lg-2 col-xl-2 py-md-3 pl-md-5 bd-content"></div>
-                    <div class="col-12 col-md-8 col-lg-8 col-xl-8 py-md-3 pl-md-5 bd-content page-content">
-                        <h1>Bruno Cesar</h1>
-                        <p>Página para divulgação de projetos pessoais, materiais de estudo e qualquer informação que esta pessoa maravilhosa que vos escreve julgue pertinente.</p>
-                        <br>
-                        <h2>Resumo</h2>
-                        <p>Breve resumo sobre uma pessoa dotada de humor negro, cinismo, sarcasmo e ironia. Um cara muito legal, excelente vocábulo no trato com damas. Profissional de exatas (com coração de humanas), podendo vir a falar coisas sem sentido.</p>
-                        <p class="quote-sign">Ass.: Futura nora de sua mãe</p>
-                        <br>
-                        <h3>Últimos projetos adicionados</h3>
-                        <ul>
-                            <li><a href="#" target="">Projeto n</a></li>
-                            <li><a href="#" target="">Projeto n-1</a></li>
-                            <li><a href="#" target="">Projeto n-2</a></li>
-                        </ul>
+        <div class="container-fluid p-0">
+            <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+                <div class="w-100">
+                    <h1 class="mb-0">
+                        Bruno
+                        <span class="text-primary">Cesar</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        Curitiba - PR, Brazil · cesar.bruno@hotmail.com
+                        <a href="mailto:cesar.bruno@hotmail.com"></a>
                     </div>
-                    <div class="col-0 col-md-2 col-lg-2 col-xl-2 py-md-3 pl-md-5 bd-content"></div>
-                </div>
-            </div>
-        </main>
-        
-        <footer class="footer sticky-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-0 col-md-2 col-lg-2 col-xl-2 py-md-3 pl-md-5 bd-content"></div>
-                    <div class="col-12 col-md-8 col-lg-8 col-xl-8 py-md-3 pl-md-5 bd-content footer-content">
+                    <p class="lead mb-5">
+                        Pessoa dotada de humor negro, cinismo, sarcasmo 
+                        e ironia. Um cara muito legal, excelente vocábulo no trato com damas. 
+                        Profissional de exatas (com coração de humanas), podendo vir a falar 
+                        coisas sem sentido.
+                    </p>
+                    <p class="lead mb-5" style="text-align: end; font-style: italic; font-size: medium; padding-right: 100px;">
+                        Ass.: Ex-futura nora de sua mãe
+                    </p>
+                    <div class="social-icons">
                         <a href="https://github.com/brnocesar" target="_blank">
                             <i class="fab fa-github"></i>
                         </a>
-			            <a href="https://gitlab.com/brnocesar" target="_blank">
+                        <a href="https://gitlab.com/brnocesar" target="_blank">
                             <i class="fab fa-gitlab"></i>
                         </a>
-                        <a href="https://www.linkedin.com/in/brnocesar/" target="_blank">
-                            <i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/brnocesar" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
                         </a>
-                        <a href="https://www.instagram.com/brnocesar/" target="_blank">
+                        <a href="https://www.instagram.com/brnocesar" target="_blank">
                             <i class="fab fa-instagram"></i>
                         </a>
                     </div>
-                    <div class="col-0 col-md-2 col-lg-2 col-xl-2 py-md-3 pl-md-5 bd-content"></div>
                 </div>
-            </div>
-        </footer>
-        
-        
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+            </section>
+
+            <hr class="m-0" />
+
+            <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+                <div class="w-100">
+                    <h2 class="mb-5">Experiências</h2>
+
+                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="resume-content">
+                            <h3 class="mb-0">Desenvolvedor Web</h3>
+                            <div class="subheading mb-3">Power Vending Máquinas Automáticas LTDA</div>
+                            <p>
+                                <ul>
+                                    <li>Produção de material de apoio e capacitação do time de Desenvolvimento</li>
+                                    <li>Planejamento e desenvolvimento da aplicação web do sistema STORAGE</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="resume-date text-md-right">
+                            <span class="text-primary">September 2019 - Presente</span>
+                        </div>
+                    </div>
+
+                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="resume-content">
+                            <h3 class="mb-0">Programador Júnior</h3>
+                            <div class="subheading mb-3">CG Multimídia</div>
+                            <p>
+                                <ul>
+                                    <li>Manutenção, personalização e desenvolvimento de novos módulos para o sistema ERPNext.</li>
+                                    <li>Capacitar, orientar e supervisionar estagiários de Desenvolvimento</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="resume-date text-md-right">
+                            <span class="text-primary">Junho 2019 - September 2019</span>
+                        </div>
+                    </div>
+
+                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="resume-content">
+                            <h3 class="mb-0">Professor de Física</h3>
+                            <div class="subheading mb-3">Colégio Estadual Homero Baptista de Barros</div>
+                            <p>
+                                <ul>
+                                    <li>Aulas de Física para turmas regulares do Ensino Médio</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="resume-date text-md-right">
+                            <span class="text-primary">Outubro 2018 - Dezembro 2018</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="m-0" />
+
+            <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+                <div class="w-100">
+                    <h2 class="mb-5">Formação</h2>
+
+                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="resume-content">
+                            <h3 class="mb-0">Universidade Federal do Paraná</h3>
+                            <div class="subheading mb-0">Mestrado em Engenharia e Ciência dos Materiais (PIPE)</div>
+                            <div class="subheading2 mb-3">Desenvolvimento de sensor para gases provenientes de compostos orgânicos voláteis</div>
+                        </div>
+                        <div class="resume-date text-md-right">
+                            <span class="text-primary">2017 - 2019</span>
+                        </div>
+                    </div>
+
+                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="resume-content">
+                            <h3 class="mb-0">Universidade Federal do Paraná</h3>
+                            <div class="subheading mb-0">Bacharelado em Física</div>
+                            <div class="subheading2 mb-3">INVESTIGAÇÃO DA DIMENSÃO LIMITE DE IMPORTÂNCIA DA INDUTÂNCIA FLUÍDICA NA MICROFLUÍDICA</div>
+                        </div>
+                        <div class="resume-date text-md-right">
+                            <span class="text-primary">2012 - 2016</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="m-0" />
+
+            <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+                <div class="w-100">
+                    <h2 class="mb-5">Habilidades</h2>
+
+                    <div class="subheading mb-3">Linguagens de programação &amp; ferramentas</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item" data-toggle="tooltip" data-placement="bottom" title="Senior Google Searcher Engineer">
+                            <i class="fas fa-search"></i>
+                        </li>
+                        <li class="list-inline-item" data-toggle="tooltip" data-placement="bottom" title="Full Stack (Overflow) Developer">
+                            <i class="fab fa-stack-overflow"></i>
+                        </li>
+                        <li class="list-inline-item" data-toggle="tooltip" data-placement="bottom" title="Já fiz muito ''Data Science'' no Excelzão">
+                            <i class="fas fa-file-excel"></i>
+                        </li>
+                        <li class="list-inline-item" data-toggle="tooltip" data-placement="bottom" title="Vamos Recruta! Não temos tempo a perder">
+                            <i class="fab fa-linux"></i>
+                        </li>
+                        <li class="list-inline-item" data-toggle="tooltip" data-placement="bottom" title="ppssssss...">
+                            <i class="fab fa-python"></i>
+                        </li>
+                        <li class="list-inline-item" data-toggle="tooltip-html" data-placement="bottom" title="$ cd ..<br>$ rm projeto/ -rf<br>$ git clone ...">
+                            <i class="fab fa-git"></i>
+                        </li>
+                        <li class="list-inline-item" data-toggle="tooltip" data-placement="bottom" title="w3schools é meu Pastor e nada me faltará">
+                            <i class="fab fa-html5"></i>
+                        </li>
+                        <li class="list-inline-item" data-toggle="tooltip" data-placement="bottom" title="">
+                            <i class="fab fa-css3-alt"></i>
+                        </li>
+                        <li class="list-inline-item" data-toggle="tooltip" data-placement="bottom" title="">
+                            <i class="fab fa-js-square"></i>
+                        </li>
+                        <li class="list-inline-item" data-toggle="tooltip" data-placement="bottom" title="<?php error_reporting(0); ?>">
+                            <i class="fab fa-php"></i>
+                        </li>
+                        <li class="list-inline-item" data-toggle="tooltip" data-placement="bottom" title="">
+                            <i class="fab fa-laravel"></i>
+                        </li>
+                        <li class="list-inline-item" data-toggle="tooltip" data-placement="bottom" title="Tem backup né?">
+                            <i class="fas fa-database"></i>
+                        </li>
+                    </ul>
+
+                    <!-- <div class="subheading mb-3">Workflow</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <i class="fa-li fa fa-check"></i>Agile Development &amp; Scrum
+                        </li>
+                    </ul> -->
+                </div>
+            </section>
+
+            <hr class="m-0" />
+        </div>
+
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+        <script src="js/scroll.js"></script>
+        <script src="js/tooltip.js"></script>
     </body>
 </html>
