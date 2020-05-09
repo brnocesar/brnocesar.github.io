@@ -266,26 +266,16 @@ a:hover, a:focus, a:active {
 }
 
 .badge1 {
-    background-color: #d67e80;
+    background-color: #5b5a75;
     color: white; 
 }
 
 .badge2 {
-    background-color: #9e79ab;
+    background-color: #c4614b;
     color: white; 
 }
 
 .badge3 {
-    background-color: #c27c90;
-    color: white; 
-}
-
-.badge4 {
-    background-color: #f88166;
-    color: white; 
-}
-
-.badge5 {
     background-color: #3a4e57;
     color: white; 
 }
