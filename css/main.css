@@ -168,6 +168,18 @@ p.lead {
         opacity: 1;
         transition: .5s ease;
     }
+    .container-flags {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 3px;
+    }
+    .flag {
+        margin: 5px;
+        margin-bottom: -50px;
+    }
     #sideNav .navbar-collapse {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -193,6 +205,9 @@ p.lead {
     }
     #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
         display: block;
+    }
+    #sideNav .navbar-collapse .container-flags .collapse{
+        display: none;
     }
 }
 
@@ -238,6 +253,19 @@ section.resume-section .resume-item .resume-date {
         border-image-source: linear-gradient( 180deg, #e6e4e3, #e6e4e3 ) !important;
         border-image-slice: 1;
     }
+
+    .container-flags {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        margin: 3px;
+        order: 1;
+    }
+    .flag {
+        margin: 5px;
+    }
 }
 
 .text-primary {
@@ -252,30 +280,63 @@ a:hover, a:focus, a:active {
     color: #162125;
 }
 
-.badges-tools {
-    /* espaçamento entre os badges */
-    /* tamanho da fonte */
-    /* font-size: 1.25em; */
-    
-}
-
 .badge {
     margin: 0.5em;
     padding: 0.5em 1em 0.5em 1em;
     font-size: 1.15em;
 }
-
 .badge1 {
     background-color: #5b5a75;
     color: white; 
 }
-
 .badge2 {
     background-color: #c4614b;
     color: white; 
 }
-
 .badge3 {
     background-color: #3a4e57;
     color: white; 
+}
+
+.flag {
+    width: 50px;
+    height: 33px;
+    overflow: hidden;
+    border: 1px solid #2b424d;
+}
+.brazil {
+    background: 
+        linear-gradient(149deg, #009B3A 30%, transparent 25%), 
+        linear-gradient(-149deg, #009B3A 30%, transparent 25%), 
+        linear-gradient(-30deg, #009B3A 30%, transparent 25%), 
+        linear-gradient(30deg, #009B3A 30%, transparent 25%), 
+        radial-gradient(25px at 50% 50%, transparent 0, transparent 35%, #FEDF00 35%, #FEDF00 100%), 
+        radial-gradient(50px at 40% 96%, transparent 0, transparent 35%, white 35%, white 39%, transparent 39%, transparent 100%), 
+        #002776;
+    overflow: hidden; 
+}
+.the-united-kingdom {
+    background: #00247D;
+    background-size: 100px 100px;
+    position: relative; 
+}
+.the-united-kingdom:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    background: 
+        linear-gradient(to bottom, transparent 40%, #CC142B 40%, #CC142B 60%, transparent 60%), 
+        linear-gradient(to right, transparent 45%, #CC142B 45%, #CC142B 55%, transparent 55%), 
+        linear-gradient(to bottom, transparent 35%, white 35%, white 65%, transparent 65%), 
+        linear-gradient(to right, transparent 40%, white 40%, white 60%, transparent 60%), 
+        linear-gradient(146deg, transparent 50%, #CC142B 50%, #CC142B 53%, transparent 53%) -30px 20px, 
+        linear-gradient(146deg, transparent 50%, #CC142B 50%, #CC142B 53%, transparent 53%) 25px -19px,
+        linear-gradient(34deg, transparent 50%, #CC142B 50%, #CC142B 53%, transparent 53%) -31px -19px,
+        linear-gradient(34deg, transparent 50%, #CC142B 50%, #CC142B 53%, transparent 53%) 30px 20px,
+        linear-gradient(146deg, transparent 45%, white 45%, white 55%, transparent 55%), 
+        linear-gradient(34deg, transparent 45%, white 45%, white 55%, transparent 55%);
+    width: 50px;
+    height: 33px;
+    background-repeat: no-repeat; 
 }

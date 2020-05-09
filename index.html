@@ -16,21 +16,25 @@
 
     <body id="page-top">
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-            <span class="d-block d-lg-none">Bruno Cesar</span>
-            <span class="d-none d-lg-block container-img-profile">
-                <div class="main-img-profile">
-                    <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="image/main-profile-picture.jpeg" alt="profile picture"/>
-                </div>
-                <div class="overlay-img-profile">
-                    <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="image/overlay-profile-picture.jpg" alt="profile picture"/>
-                </div>
+            <span class="collapse container-flags navbar-collapse multi-collapse d-lg-inline-flex" id="language-flags">
+                <div class="flag brazil" onclick="alert('Português')"></div>
+                <div class="flag the-united-kingdom" onclick="alert('English')"></div>
             </span>
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Bruno Cesar</span>
+                <span class="d-none d-lg-block container-img-profile">
+                    <div class="main-img-profile">
+                        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="image/main-profile-picture.jpeg" alt="profile picture"/>
+                    </div>
+                    <div class="overlay-img-profile">
+                        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="image/overlay-profile-picture.jpg" alt="profile picture"/>
+                    </div>
+                </span>
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-controls="major-links language-flags" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse multi-collapse" id="major-links">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#about">Sobre</a>
@@ -121,7 +125,7 @@
                             </p>
                         </div>
                         <div class="resume-date text-md-right">
-                            <span  class="subheading3">Março 2019 - Presente</span>
+                            <span  class="subheading3">Março 2019 - Março 2020</span>
                         </div>
                     </div>
 
@@ -196,7 +200,7 @@
 
                     <div class="subheading mb-3">Linguagens de programação &amp; ferramentas</div>
 
-                    <div class="row col-10 d-flex" id="badges">
+                    <div class="row col-12 col-sm-12 col-md-12 col-lg-10 d-flex" id="badges">
 
                         <span class="badge badge-pill" data-toggle="tooltip" data-placement="bottom" title="">C</span>
                         <span class="badge badge-pill" data-toggle="tooltip" data-placement="bottom" title="">Linux</span>
