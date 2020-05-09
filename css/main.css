@@ -251,3 +251,41 @@ a {
 a:hover, a:focus, a:active {
     color: #162125;
 }
+
+.badges-tools {
+    /* espaçamento entre os badges */
+    /* tamanho da fonte */
+    /* font-size: 1.25em; */
+    
+}
+
+.badge {
+    margin: 0.5em;
+    padding: 0.5em 1em 0.5em 1em;
+    font-size: 1.15em;
+}
+
+.badge1 {
+    background-color: #d67e80;
+    color: white; 
+}
+
+.badge2 {
+    background-color: #9e79ab;
+    color: white; 
+}
+
+.badge3 {
+    background-color: #c27c90;
+    color: white; 
+}
+
+.badge4 {
+    background-color: #f88166;
+    color: white; 
+}
+
+.badge5 {
+    background-color: #3a4e57;
+    color: white; 
+}
