@@ -298,6 +298,27 @@ a:hover, a:focus, a:active {
     color: white; 
 }
 
+.projects-grid {
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    list-style: none;
+}
+
+.projects-grid li {
+    background: none;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #426574;
+    border-radius: 16px;
+    width: 350px;
+    height: 400px;
+    max-width: 350px;
+    max-height: 400px;
+    padding: 10px;
+}
+
 .flag {
     width: 50px;
     height: 33px;
