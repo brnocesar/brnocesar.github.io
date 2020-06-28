@@ -315,13 +315,22 @@ a:hover, a:focus, a:active {
     background: none;
     display: flex;
     flex-direction: column;
-    border: 2px solid #426574;
+    border: 2px solid rgba(57, 43, 65, 0.8);
     border-radius: 16px;
     width: 350px;
     height: 400px;
     max-width: 350px;
     max-height: 400px;
     padding: 10px;
+}
+
+.projects-grid li h3, .projects-grid li .project-links, .projects-grid li .project-links > a {
+    color: #8b3d2b;
+}
+
+.projects-grid li .project-links {
+    text-align: center;
+    margin-right: 30px;
 }
 
 @media (max-width: 1500px) { .projects-grid { grid-template-columns: repeat(2, 1fr); }}

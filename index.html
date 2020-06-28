@@ -57,8 +57,10 @@
                         <a class="nav-link js-scroll-trigger" lang="en" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" lang="pt" hidden href="old/index.html">Versão antiga</a>
-                        <a class="nav-link js-scroll-trigger" lang="en" href="old/index.html">Old version</a>
+                        <a class="nav-link js-scroll-trigger" href="old/index.html" target="_blank">
+                            <span lang="pt" hidden>Versão antiga</span>
+                            <span lang="en">Old version</span>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -296,16 +298,18 @@
                     <div class="row col-12 col-sm-12 col-md-12 col-lg-10 d-flex">
                         <ul class="projects-grid">
                             <li>
-                                <h3>Laravel Multi-Tenant</h3> <!-- colocar cor no fundo dessa parte -->
+                                <h3>Laravel Multi-Tenant</h3>
                                 <p>
                                     <span class="badge">Laravel</span>
                                     <span class="badge">MySQL</span>
                                 </p>
                                 <span>
-                                    Exemplo de aplicação multi-tenancy desenvolvida em Laravel usando o pacote Tenancy.
+                                    Exemplo de aplicação multi-tenancy desenvolvida em Laravel (5.8) usando o pacote Tenancy (5.4).</br>
+                                    <i class="fas fa-database"></i> Cada um dos <i>tenants</i> criadas possui seu próprio <i>hostname</i> e a Base de Dados independente.</br>
+                                    <i class="fas fa-book"></i> Existe um "Guia de desenvolvimento" no repositório que cobre os passos básicos para criar uma aplicação similar. 
                                 </span>
-                                <span>
-                                    <a href="https://github.com/brnocesar/sandbox-multi-tenancy" target="_blank">Repositório</a> | <a href="" target="_blank">Deploy</a> <!-- jogar isso pro bottom -->
+                                <span class="project-links">
+                                    <a href="https://github.com/brnocesar/sandbox-multi-tenancy" target="_blank">Repositório</a> | <a href="#" target="_blank">Deploy</a>
                                 </span>
                             </li>
                             <li>
@@ -318,12 +322,27 @@
                                     <span class="badge">JavaScript</span>
                                 </p>
                                 <span>
-                                    Gerenciador de série com uma "pegada" de rede social, mas assim... bem entre aspas mesmo. </br>
-                                    Desenvolvida em Laravel e o front é feito nas Blades. </br>
+                                    Gerenciador de séries com uma "pegada" de rede social, mas assim... bem entre aspas mesmo.</br>
+                                    Projeto em Laravel com o <i>front-end</i> é feito nas Blades.</br>
                                     Você pode adicionar séries a sua lista e marcar episódios que já assistiu, além disso, pode ver o que seus amigos (ou os bots mesmo) estão assistindo.
                                 </span>
+                                <span class="project-links">
+                                    <a href="https://github.com/brnocesar/sandbox-laravel-series" target="_blank">Repositório</a> | <a href="http://brnocesar-laravel-series.herokuapp.com/" target="_blank">Deploy</a>
+                                </span>
+                            </li>
+                            <li>
+                                <h3>As aventuras de Hipsta</h3>
+                                <p>
+                                    <span class="badge">JavaScript</span>
+                                    <span class="badge">CSS</span>
+                                    <span class="badge">HTML</span>
+                                </p>
                                 <span>
-                                    <a href="https://github.com/brnocesar/sandbox-laravel-series" target="_blank">Repositório</a> | <a href="brnocesar-laravel-series.herokuapp.com/" target="_blank">Deploy</a> <!-- jogar isso pro bottom e destacar -->
+                                    <i class="fas fa-gamepad"></i> Jogo de plataforma 2D estilo <i>endless runner</i> desenvolvido com a biblioteca <a href="" target="_blank">p5.js</a> durante a Imersão GameDev da <a href="https://www.alura.com.br/imersao-gamedev-javascript" target="_blank">Alura</a>.</br>
+                                    <i class="fas fa-broom"></i> O "plot" gira em torno de Hipsta, uma bruxinha que precisa passar pelos obstáculos de uma floresta cheia de trolls e gotinhas contaminadas.</br>
+                                </span>
+                                <span class="project-links">
+                                    <a href="https://github.com/brnocesar/imersao-game-dev-alura" target="_blank">Repositório</a> | <a href="projects/hipsta.html" target="_blank">Deploy</a>
                                 </span>
                             </li>
                             <li>
@@ -339,12 +358,12 @@
                                 </p>
                                 <span>
                                     Aplicação que conecta 'locais de coleta de Resíduos' a pessoas que querem descartá-los de forma adequada.</br>
-                                    O back-end é uma API que serve as versões Web e Mobile. </br>
-                                    Na versão Web é possível cadastrar, listar e ver detalhes de 'Pontos de coleta'. </br>
-                                    Na versão Mobile está disponível a busca por 'Pontos de coleta' de acordo com o tipo de resíduo e seu localização.
+                                    <i class="fas fa-laptop-code"></i> O back-end é uma API que serve as versões Web e Mobile.</br>
+                                    <i class="fas fa-globe"></i> Na versão Web é possível cadastrar, listar e ver detalhes de 'Pontos de coleta'.</br>
+                                    <i class="fas fa-mobile-alt"></i> Já na versão Mobile está disponível a busca por 'Pontos de coleta' de acordo com o tipo de resíduo e seu localização.
                                 </span>
-                                <span>
-                                    <a href="https://github.com/brnocesar/omnistack-rocketseat#12" target="_blank">Repositório</a> | <a href="" target="_blank">Deploy</a> <!-- jogar isso pro bottom -->
+                                <span class="project-links">
+                                    <a href="https://github.com/brnocesar/omnistack-rocketseat#12" target="_blank">Repositório</a> | <a href="#" target="_blank">Deploy</a>
                                 </span>
                             </li>
                             <li>
@@ -360,11 +379,11 @@
                                 </p>
                                 <span>
                                     Aplicação conecta pessoas desenvolvedoras a pessoas que querem encotrá-las.</br>
-                                    Programadores se cadastram através da versão Web, informando seus usuários do GitHub e as tecnologias que querem ser buscados. </br>
-                                    Usuários encontram programadores próximos a eles, de acordo com a tecnologia que procuram.
+                                    <i class="fas fa-globe"></i> Programadores se cadastram através da versão Web, informando seus usuários do GitHub e as tecnologias que querem ser buscados. </br>
+                                    <i class="fas fa-mobile-alt"></i> Usuários encontram programadores próximos a eles, de acordo com a tecnologia que procuram.
                                 </span>
-                                <span>
-                                    <a href="https://github.com/brnocesar/omnistack-rocketseat#10" target="_blank">Repositório</a> | <a href="" target="_blank">Deploy</a> <!-- jogar isso pro bottom -->
+                                <span class="project-links">
+                                    <a href="https://github.com/brnocesar/omnistack-rocketseat#10" target="_blank">Repositório</a> | <a href="#" target="_blank">Deploy</a>
                                 </span>
                             </li>
                             
