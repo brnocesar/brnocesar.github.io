@@ -6,12 +6,12 @@ body {
 }
 
 ::-moz-selection {
-    background: #2f4650;
-    color: white;
+    background: #395561;
+    color: #cea69d;
 }
 ::selection {
-    background: #2f4650;
-    color: white;
+    background: #395561;
+    color: #cea69d;
 }
 
 @media (min-width: 992px) {
@@ -306,7 +306,7 @@ a:hover, a:focus, a:active {
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 32px;
     list-style: none;
 }
@@ -324,8 +324,12 @@ a:hover, a:focus, a:active {
     padding: 10px;
 }
 
-.projects-grid li h3, .projects-grid li .project-links, .projects-grid li .project-links > a {
+.projects-grid li h3, .projects-grid li .project-links, .projects-grid li .project-links > a, .projects-grid li .project-repo > a {
     color: #8b3d2b;
+}
+
+.projects-grid li .project-repo {
+    text-align: center;
 }
 
 .projects-grid li .project-links {
@@ -333,7 +337,8 @@ a:hover, a:focus, a:active {
     margin-right: 30px;
 }
 
-@media (max-width: 1500px) { .projects-grid { grid-template-columns: repeat(2, 1fr); }}
+/* @media (max-width: 1500px) { .projects-grid { grid-template-columns: repeat(2, 1fr); }} */
+@media (max-width: 1859px) { .projects-grid { grid-template-columns: repeat(3, 1fr); }}
 @media (max-width: 1100px) and (min-width: 992px) { 
     .projects-grid { 
         grid-template-columns: repeat(1, 1fr); 
