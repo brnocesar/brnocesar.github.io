@@ -343,10 +343,16 @@ a:hover, a:focus, a:active {
 }
 
 @media (max-width: 1859px) { .projects-grid { grid-template-columns: repeat(3, 1fr); }}
-@media (max-width: 1366px) { .projects-grid { grid-template-columns: repeat(2, 1fr); }}
+@media (max-width: 1450px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 48px 64px;
+    }
+}
 @media (max-width: 1100px) and (min-width: 992px) { 
     .projects-grid { 
-        grid-template-columns: repeat(1, 1fr); 
+        margin-left: -80px;
+        gap: 16px 8px;
     }
     .projects-grid li {
         height: auto;
