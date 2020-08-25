@@ -329,8 +329,18 @@ a:hover, a:focus, a:active {
     padding: 10px;
 }
 
-.projects-grid li h3, .projects-grid li .project-links, .projects-grid li .project-links > a, .projects-grid li .project-repo > a {
+.projects-grid li h3, 
+.projects-grid li .project-links, 
+.projects-grid li .project-links > a, 
+.projects-grid li .project-repo > a {
     color: #8b3d2b;
+}
+
+.projects-grid li .project-links > a, 
+.projects-grid li .project-repo > a {
+    color: #8b3d2b;
+    font-weight: 600;
+    text-decoration: none;
 }
 
 .projects-grid li .project-repo {
