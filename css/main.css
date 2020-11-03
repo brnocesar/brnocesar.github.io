@@ -243,6 +243,12 @@ section.resume-section .resume-item .resume-date {
     }
 }
 
+@media (max-width: 360px) {
+    #codepen-icon {
+        display: none;
+    }
+}
+
 .bg-primary {
     background-color: #2f4650 !important;
     border-top-width: 5px;
