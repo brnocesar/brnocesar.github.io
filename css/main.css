@@ -326,6 +326,7 @@ a:hover, a:focus, a:active {
     background: none;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     border: 2px solid rgba(57, 43, 65, 0.8);
     border-radius: 16px;
     width: 350px;
@@ -381,6 +382,9 @@ a:hover, a:focus, a:active {
     }
     .projects-grid li {
         height: auto;
+    }
+    .project-repo, .project-links {
+        margin-top: 1rem;
     }
 }
 @media (max-width: 415px) { 
