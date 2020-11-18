@@ -209,6 +209,9 @@ p.lead {
     #sideNav .navbar-collapse .container-flags .collapse{
         display: none;
     }
+    #major-links {
+        padding-bottom: 150px;
+    }
 }
 
 section.resume-section {
