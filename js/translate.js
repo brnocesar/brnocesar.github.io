@@ -16,7 +16,10 @@ async function applyLanguage(lang) {
         const text = dict[element.getAttribute("data-i18n")];
         if (text === undefined) return;
 
-        if (element.hasAttribute("data-i18n-html")) {
+        const attribute = element.getAttribute("data-i18n-attr");
+        if (attribute) {
+            element.setAttribute(attribute, text);
+        } else if (element.hasAttribute("data-i18n-html")) {
             element.innerHTML = text;
         } else {
             element.textContent = text;
