@@ -1,24 +1,39 @@
-function translate(language, status){
-    var elements = document.querySelectorAll(`[lang=${language}]:not(html)`);
-    
-    for(var i=0; i<elements.length; i++) {
-        elements[i].hidden = status;
+let i18nCache = {};
+let currentLang = localStorage.getItem("lang") || "en";
+
+async function loadLanguage(lang) {
+    if (!i18nCache[lang]) {
+        const response = await fetch(`js/i18n/${lang}.json`);
+        i18nCache[lang] = await response.json();
     }
+    return i18nCache[lang];
+}
+
+async function applyLanguage(lang) {
+    const dict = await loadLanguage(lang);
+
+    document.querySelectorAll("[data-i18n]").forEach((element) => {
+        const text = dict[element.getAttribute("data-i18n")];
+        if (text === undefined) return;
+
+        if (element.hasAttribute("data-i18n-html")) {
+            element.innerHTML = text;
+        } else {
+            element.textContent = text;
+        }
+    });
+
+    document.documentElement.lang = lang;
+    localStorage.setItem("lang", lang);
+    currentLang = lang;
 }
 
 function toEnglish(){
-    // alert('toEnglish')
-    translate("pt", true)
-    translate("en", false)
+    applyLanguage("en");
 }
 
 function toPortuguese(){
-    // alert('toPortuguese')
-    translate("en", true)
-    translate("pt", false)
+    applyLanguage("pt");
 }
 
-// proxima mudança:
-// - metodo apenas para trocar o valor de 'lang'
-// - metodo que busca num JSON o texto que deve ser aplicado de acordo com o valor de 'lang'
-// - armazenar na sessao o ultimo valor de 'lang', roda o metodo acima ao carregar também
+document.addEventListener("DOMContentLoaded", () => applyLanguage(currentLang));
